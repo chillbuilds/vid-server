@@ -1,0 +1,28 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>video stream</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    
+    <div id="vidList">
+
+    </div>
+
+    <body>
+        <video style="display: none;" id="vidPlayer-0" class="vidContainer" width="100%" controls autoplay>
+            <source src="/vid-0" type="video/mp4" />
+        </video>
+        <video style="display: none;" id="vidPlayer-1" class="vidContainer" width="100%" controls autoplay>
+            <source src="/vid-1" type="video/mp4" />
+        </video>
+        <video style="display: none;" id="vidPlayer-2" class="vidContainer" width="100%" controls autoplay>
+            <source src="/vid-2" type="video/mp4" />
+        </video>
+    </body>
+
+    <script src="./scripts/jquery.js"></script>
+    <script src="./scripts/index.js"></script>
+</html>
